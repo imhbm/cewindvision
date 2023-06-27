@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --chart-text: Roboto;
+  --font-bai-jamjuree: "Bai Jamjuree";
+  --bode-text-inter-14-medium: Inter;
+  --font-nunito: Nunito;
+
+  /* font sizes */
+  --bode-text-inter-14-medium-size: 14px;
+  --font-size-base: 16px;
+  --header-3-20-28-size: 20px;
+  --chart-text-size: 11px;
+
+  /* Colors */
+  --gray-02-1o: #fff;
+  --color-gray-100: #949494;
+  --gray-02-7o: #757575;
+  --color-gray-200: #222223;
+  --color-gray-300: #17181a;
+  --black-87: rgba(0, 0, 0, 0.87);
+  --black-60: rgba(0, 0, 0, 0.6);
+  --color-dimgray-100: #5f5f64;
+  --primary-pressed: #220f80;
+  --gray-400: #b1b1b1;
+  --color-darkslategray-100: #404041;
+  --color-black: #000;
+  --primary-100: #6200e8;
+  --dark-theme-primary: #b892f2;
+
+  /* Gaps */
+  --gap-21xl: 40px;
+  --gap-8xs: 5px;
+  --gap-3xs: 10px;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+  --padding-5xs: 8px;
+  --padding-base: 16px;
+  --padding-7xs: 6px;
+  --padding-xs: 12px;
+  --padding-21xl: 40px;
+  --padding-xl: 20px;
+  --padding-9xl: 28px;
+
+  /* border radiuses */
+  --br-9xs: 4px;
+  --br-10xs: 3px;
+  --br-xl: 20px;
+  --br-5xs: 8px;
+
+  /* Effects */
+  --effect: 0px 0.10000000149011612px 0.3px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.2);
+}
